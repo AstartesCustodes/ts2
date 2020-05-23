@@ -3,3 +3,5 @@
 ## Local Deployment
 1. Git clone the project and simply run `docker-compose up`
 2. Send POST request at `http://localhost:8080/api/action?value=x`, where X - your input value
+
+like:   curl -d "value=6584" -X POST http://localhost:8080/api/action?
